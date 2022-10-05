@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template 1</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">    <link rel="stylesheet" href="css/normlize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <!-- selectbox -->
+    <div class="setting-box">
+        <div class="icon">
+            <i class="fas fa-cog point"></i>
+        </div>
+        <div class="option-box">
+            <h4>Choose color</h4>
+            <ul>
+                <li class="li active" data-color="#e79111"></li>
+                <li data-color="#03a9f4" class="li"></li>
+                <li data-color="#009688" class="li"></li>
+                <li data-color="#f44336" class="li"></li>
+                <li data-color="#9c27b0"  class="li"></li>
+            </ul>
+        </div>
+        <div class="option-box">
+            <h4>Random Background</h4>
+            <div class="background">
+                <span data-background="yes">Yes</span>
+                <span data-background="no">No</span>
+            </div>
+        </div>
+        <div class="option-box">
+            <h4>Nav Bullets</h4>
+            <div class="bullets">
+                <span data-display="block">Show</span>
+                <span data-display="none">Hide</span>
+            </div>
+        </div>
+        <span class="reset">Reset</span>
+    </div>
+    <!-- start navigation bullets -->
+    <div class="nav-bullets">
+        <div class="bullet" data-section="about">
+            <div class="tooltip">About</div>
+        </div>
+        <div class="bullet" data-section="skills"> 
+            <div class="tooltip">skills</div>
+        </div>
+        <div class="bullet" data-section="gallery">
+            <div class="tooltip">gallery</div>
+        </div>
+        <div class="bullet" data-section="timeline">
+            <div class="tooltip">timeline</div>
+        </div>
+        <div class="bullet" data-section="features">
+            <div class="tooltip">features</div>
+        </div>
+        <div class="bullet" data-section="testimonial">
+            <div class="tooltip">testimonial</div>
+        </div>
+    </div>
+    <!-- landing -->
+    <div class="landing">
+        <div class="overlay">
+
+                <div class="header">
+                    <div class="container">
+                        <h2 class="logo">Company Name</h2>
+                        <div class="links-container">
+                            <i class="fas fa-bars"></i>
+                            <ul class="links">
+                                <li><a href="#" data-section="landing">Home</a></li>
+                                <li><a href="#" data-section="skills">Skills</a></li>
+                                <li><a href="#" data-section="gallery">Gallery</a></li>
+                                <li><a href="#" data-section="timeline">timeline</a></li>
+                                <li><a href="#" data-section="testimonial">testimonial</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text">
+                    <div class="container">    
+                        <h2>wellcom to our <span>Website</span></h2>
+                        <p> 
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae earum reiciendis enim omnis accusamus, fugiat, 
+                        </p>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+
+    <!-- start about -->
+    <div class="about">
+        <div class="container">
+            <div class="boxes">
+                <div class="box text">
+                    <h3>About Us</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum sequi labore repudiandae vel id est odio alias suscipit, consectetur voluptatem perferendis necessitatibus quibusdam nostrum libero nulla voluptatibus explicabo vitae sunt.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum sequi labore repudiandae vel id est odio alias suscipit, consectetur voluptatem perferendis necessitatibus quibusdam nostrum libero nulla voluptatibus explicabo vitae sunt.
+                    </p>
+                </div>
+                <div class="box image">
+                    <img src="images/about.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- start skiills -->
+    <div class="skills" id="skills">
+        <div class="container">
+            <h2>Our Skills</h2>
+            <div class="skill-box">
+                <div class="skill-text">HTML</div>
+                <div class="skill-progress">
+                    <span data-progress="70%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-text">CSS</div>
+                <div class="skill-progress">
+                    <span data-progress="80%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-text">javaScript</div>
+                <div class="skill-progress">
+                    <span data-progress="95%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-text">php</div>
+                <div class="skill-progress">
+                    <span data-progress="60%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-text">BootStrap</div>
+                <div class="skill-progress">
+                    <span data-progress="90%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-text">vue Js</div>
+                <div class="skill-progress">
+                    <span data-progress="65%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- start gallery -->
+    <div class="gallery">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <div class="images">
+                <img src="images/shuffle-01.jpg" alt="Project 1">
+                <img src="images/shuffle-02.jpg" alt="Project 2">
+                <img src="images/shuffle-03.jpg" alt="Project 3">
+                <img src="images/shuffle-04.jpg" alt="Project 4">
+                <img src="images/shuffle-05.jpg" alt="Project 5">
+                <img src="images/shuffle-06.jpg" alt="Project 6">
+                <img src="images/shuffle-07.jpg" alt="Project 7">
+                <img src="images/shuffle-08.jpg" alt="Project 8">
+            </div>
+        </div>
+    </div>
+
+    <!-- start timeline -->
+    <div class="timeline">
+        <div class="container">
+            <div class="item">
+                <div class="year">2020</div>
+                <div class="left">
+                    <h3>First project in 2020</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque ea cum eum qui quibusdam debitis nisi placeat sit aliquam libero in impedit harum culpa commodi rerum, doloribus id ipsam fuga?</p>
+                </div>
+                <div class="right">
+                    <h3>second project in 2020</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia molestias autem, fugiat recusandae eum temporibus placeat quod est! Assumenda molestiae, dolores possimus nulla aliquam modi voluptates incidunt quaerat itaque doloremque.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="year">2021</div>
+                <div class="left">
+                    <h3>First project in 2020</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque ea cum eum qui quibusdam debitis nisi placeat sit aliquam libero in impedit harum culpa commodi rerum, doloribus id ipsam fuga?</p>
+                </div>
+                <div class="right">
+                    <h3>second project in 2020</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia molestias autem, fugiat recusandae eum temporibus placeat quod est! Assumenda molestiae, dolores possimus nulla aliquam modi voluptates incidunt quaerat itaque doloremque.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="year">2022</div>
+                <div class="left">
+                    <h3>First project in 2020</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque ea cum eum qui quibusdam debitis nisi placeat sit aliquam libero in impedit harum culpa commodi rerum, doloribus id ipsam fuga?</p>
+                </div>
+                <div class="right">
+                    <h3>second project in 2020</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia molestias autem, fugiat recusandae eum temporibus placeat quod est! Assumenda molestiae, dolores possimus nulla aliquam modi voluptates incidunt quaerat itaque doloremque.</p>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+    <!-- start features -->
+    <div class="features">
+        <div class="container">
+            <h2>Our Features</h2>
+            <div class="boxes">
+                <div class="box">
+                    <img src="images/service-icon-01.png" alt="">
+                    <h3>background</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nostrum fugit magnam in ab .</p>
+                </div>
+                <div class="box">
+                    <img src="images/service-icon-02.png" alt="">
+                    <h3>background</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nostrum fugit magnam in.</p>
+                </div>
+                <div class="box">
+                    <img src="images/service-icon-03.png" alt="">
+                    <h3>background</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nostrum fugit magnam in.</p>
+                </div>
+                <div class="box">
+                    <img src="images/service-icon-04.png" alt="">
+                    <h3>background</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nostrum fugit magnam .</p>
+                </div>
+                <div class="box">
+                    <img src="images/service-icon-03.png" alt="">
+                    <h3>background</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nostrum fugit magnam in .</p>
+                </div>
+                <div class="box">
+                    <img src="images/service-icon-03.png" alt="">
+                    <h3>background</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nostrum fugit magnam in ab .</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+    <!-- start testimonials -->
+    <div class="testimonial">
+        <div class="container">
+            <h2>testimonials</h2>
+            <div class="boxes">
+                <div class="box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <img src="https://via.placeholder.com/70/#DDD" alt="">
+                    <div class="info">
+                        <h3>John Doe</h3>
+                        <p>CEO At company</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <img src="https://via.placeholder.com/70/#DDD" alt="">
+                    <div class="info">
+                        <h3>John Doe</h3>
+                        <p>CEO At company</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <img src="https://via.placeholder.com/70/#DDD" alt="">
+                    <div class="info">
+                        <h3>John Doe</h3>
+                        <p>CEO At company</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+    <!-- contadct -->
+    <div class="contact">
+        <div class="container">
+            <h2>
+                Contact Us
+            </h2>
+            <form action="">
+                <div class="left">
+                    <input type="text" placeholder="Username">
+                    <input type="text" placeholder="Passwords">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Phone">
+                </div>
+                <div class="right">
+                    <textarea name="" placeholder="Message"></textarea>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="items">
+                <div class="item opening">
+                    <h3>Opening Hours</h3>
+                    <div class="day">
+                        <span>Sunday: </span><span class="right">closed</span>
+                    </div>
+                    <div class="day">
+                        <span>Monday, Tuesday - Firday</span><span class="right">8:00 AM - 3:30 PM</span>
+                    </div>
+                    <div class="day">
+                        <span>Saturday</span><span class="right">10:30 AM - 5:30 PM</span>
+                    </div>
+                </div>   
+                <div class="item our">
+                    <h3>Our Company</h3>
+                    <p>
+                        hello@company.co
+                    </p>
+                    <p>123 Digital Art Street, San Diego, CA 92123</p>
+                </div>
+                <div class="item social">
+                    <h3>Socials</h3>
+                    <div class="icons">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-github"></i>
+                    </div>
+                </div>
+            </div>
+            <p>Copyright &copy; Our Company 2021</p>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
